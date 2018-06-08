@@ -30,16 +30,16 @@
         
         <form>
          <button onClick={this.AddTask}>
-            + 
+            ADD 
           </button>
           <button onClick={this.RemoveTask}>
-              -
+              REMOVE
           </button>
           <button onClick={this.ClearTasks}>
               CLEAR
           </button>
           <label htmlFor="new-todo">
-            Click '+' to add new task, '-' to remove last task or clear to clear the list.
+            Click 'ADD' to add new task, 'REMOVE' to remove last task or clear to clear the list.
           </label>
         </form>
         <TodoList items={this.state.items} />

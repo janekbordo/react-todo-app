@@ -1,7 +1,20 @@
-button{
+body{
+    text-align: center;
+}
+
+form button{
     height: 50px;
     width:100px;
     font-size: 20px;
     margin: 5px;
     cursor: pointer;
+    display: inline-block;
+}
+
+form label{
+    display: block;
+}
+
+ul {
+    list-style: none;
 }
